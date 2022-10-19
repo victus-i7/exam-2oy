@@ -1,0 +1,174 @@
+// car started desktop 729px 1440px 
+
+.car {
+    height: 320px;
+    width: 1110px;
+
+    border-radius: 8px;
+
+    padding-left: 126.12px;
+    padding-top: 101px;
+    background-image: url(../images/car-bg-images.png);
+    background-size: cover;
+    margin: 48px auto 0 auto;
+
+
+    &__ul {
+
+        &--li:nth-child(1) {
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 38px;
+            letter-spacing: 2px;
+            text-align: left;
+        }
+
+        &--li:nth-child(2) a {
+            margin-top: 32px;
+            height: 48px;
+            width: 160px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 0px;
+            border: solid 2px black;
+            font-size: 13px;
+            font-weight: 700;
+            line-height: 18px;
+            letter-spacing: 1px;
+            text-align: left;
+            text-decoration: none;
+            color: rgba(0, 0, 0, 1);
+        }
+
+        &--li:nth-child(2) a:active {
+            background-color: rgba(0, 0, 0, 1);
+            color: rgba(255, 255, 255, 1);
+        }
+
+    }
+
+
+}
+
+// car finished desktop 729px 1440px 
+
+// car started tablet 768.22px 960px
+
+@media (max-width: 960px) and (min-width: 768.22px) {
+    .car {
+        height: 320px;
+        width: 689px;
+
+
+        border-radius: 8px;
+
+        padding-left: 62px;
+        padding-top: 101px;
+        background-image: url(/images/car-bg-image-tablet.png);
+        background-size: cover;
+        margin: 48px auto 0 auto;
+
+
+        &__ul {
+
+            &--li:nth-child(1) {
+                font-size: 28px;
+                font-weight: 700;
+                line-height: 38px;
+                letter-spacing: 2px;
+                text-align: left;
+            }
+
+            &--li:nth-child(2) a {
+                margin-top: 32px;
+                height: 48px;
+                width: 160px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 0px;
+                border: solid 2px black;
+                font-size: 13px;
+                font-weight: 700;
+                line-height: 18px;
+                letter-spacing: 1px;
+                text-align: left;
+                text-decoration: none;
+                color: rgba(0, 0, 0, 1);
+            }
+
+            &--li:nth-child(2) a:active {
+                background-color: rgba(0, 0, 0, 1);
+                color: rgba(255, 255, 255, 1);
+            }
+
+        }
+
+
+    }
+}
+
+// car finished tablet 768.22px 960px
+
+
+// car started mobile 375px 844px 
+
+@media (max-width: 844px) and (min-width: 375px) {
+
+    .car {
+        height: 320px;
+        width: 327px;
+
+
+
+        border-radius: 8px;
+
+        padding-left: 24px;
+        padding-top: 101px;
+        background-image: url(/images/car-bg-image-mobile.png);
+        background-size: cover;
+        margin: 48px auto 0 auto;
+
+
+        &__ul {
+
+            &--li:nth-child(1) {
+                font-size: 28px;
+                font-weight: 700;
+                line-height: 38px;
+                letter-spacing: 2px;
+                text-align: left;
+            }
+
+            &--li:nth-child(2) a {
+                margin-top: 32px;
+                height: 48px;
+                width: 160px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 0px;
+                border: solid 2px black;
+                font-size: 13px;
+                font-weight: 700;
+                line-height: 18px;
+                letter-spacing: 1px;
+                text-align: left;
+                text-decoration: none;
+                color: rgba(0, 0, 0, 1);
+            }
+
+            &--li:nth-child(2) a:active {
+                background-color: rgba(0, 0, 0, 1);
+                color: rgba(255, 255, 255, 1);
+            }
+
+        }
+
+
+
+    }
+}
+
+// car finished mobile 375px 844px 

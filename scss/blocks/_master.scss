@@ -1,0 +1,212 @@
+// master started desktop 729px 1440px 
+
+.master {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+
+    &__div {
+        height: 320px;
+        width: 540px;
+        background-image: url(/images/master-bg-images.png);
+        background-size: cover;
+        border-radius: 8px;
+        margin-right: 30px;
+        cursor: pointer;
+    }
+
+    &__ul {
+        padding-top: 101px;
+        padding-left: 95px;
+        background-color: rgba(241, 241, 241, 1);
+        height: 320px;
+        width: 540px;
+
+        border-radius: 8px;
+
+        &--li:nth-child(1) {
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 38px;
+            letter-spacing: 2px;
+            text-align: left;
+        }
+
+        &--li:nth-child(2) a {
+            margin-top: 32px;
+            height: 48px;
+            width: 160px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: solid 2px black;
+            font-size: 13px;
+            font-weight: 700;
+            line-height: 18px;
+            letter-spacing: 1px;
+            text-align: left;
+            color: rgba(0, 0, 0, 1);
+            text-decoration: none;
+
+        }
+
+        &--li:nth-child(2) a:active {
+            background-color: rgba(0, 0, 0, 1);
+            color: rgba(255, 255, 255, 1);
+        }
+
+
+    }
+
+}
+
+// master finished desktop 729px 1440px 
+
+
+// master started tablet 768.22px 960px
+
+@media (max-width: 960px) and (min-width: 768.22px) {
+
+    .master {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 48px;
+
+        &__div {
+            height: 320px;
+            width: 339px;
+
+
+            background-image: url(/images/master-bg-images-tablet.png);
+            background-size: cover;
+            border-radius: 8px;
+            margin-right: 11px;
+            cursor: pointer;
+        }
+
+        &__ul {
+            padding-top: 101px;
+            padding-left: 41px;
+            background-color: rgba(241, 241, 241, 1);
+            height: 320px;
+            width: 339px;
+
+
+
+            border-radius: 8px;
+
+            &--li:nth-child(1) {
+                font-size: 28px;
+                font-weight: 700;
+                line-height: 38px;
+                letter-spacing: 2px;
+                text-align: left;
+            }
+
+            &--li:nth-child(2) a {
+                margin-top: 32px;
+                height: 48px;
+                width: 160px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: solid 2px black;
+                font-size: 13px;
+                font-weight: 700;
+                line-height: 18px;
+                letter-spacing: 1px;
+                text-align: left;
+                color: rgba(0, 0, 0, 1);
+                text-decoration: none;
+
+            }
+
+            &--li:nth-child(2) a:active {
+                background-color: rgba(0, 0, 0, 1);
+                color: rgba(255, 255, 255, 1);
+            }
+
+
+        }
+
+    }
+
+}
+
+// master finished tablet 768.22px 960px
+
+
+// master started mobile 375px 844px 
+
+@media (max-width: 844px) and (min-width: 375px) {
+
+
+    .master {
+        display: block;
+        margin-left: 24px;
+        margin-top: 24px;
+
+        &__div {
+            height: 200px;
+            width: 327px;
+            background-image: url(/images/master-bg-images-mobile.png);
+            background-size: cover;
+            border-radius: 8px;
+            margin-bottom: 24px;
+            cursor: pointer;
+        }
+
+        &__ul {
+            padding-top: 41px;
+            padding-left: 24px;
+            background-color: rgba(241, 241, 241, 1);
+            height: 200px;
+            width: 327px;
+
+
+
+
+
+            border-radius: 8px;
+
+            &--li:nth-child(1) {
+                font-size: 28px;
+                font-weight: 700;
+                line-height: 38px;
+                letter-spacing: 2px;
+                text-align: left;
+            }
+
+            &--li:nth-child(2) a {
+                margin-top: 32px;
+                height: 48px;
+                width: 160px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: solid 2px black;
+                font-size: 13px;
+                font-weight: 700;
+                line-height: 18px;
+                letter-spacing: 1px;
+                text-align: left;
+                color: rgba(0, 0, 0, 1);
+                text-decoration: none;
+
+            }
+
+            &--li:nth-child(2) a:active {
+                background-color: rgba(0, 0, 0, 1);
+                color: rgba(255, 255, 255, 1);
+            }
+
+
+        }
+
+    }
+
+}
+
+// master finished mobile 375px 844px 
